@@ -40,9 +40,11 @@ I am currently working through Linux fundamentals using hands-on labs and docume
 
 ## Progress Log
 
-| Date | Topic | Status |
-|------|-------|--------|
-| 2026-07-19 | Repository Created | ✅ |
+| Date       | Topic              | Status |
+| ---------- | ------------------ | ------ |
+| 2026-07-19 | Repository Created | ✅      |
+| 2026-07-20 | Linux Navigation   | ✅      |
+| 2026-07-21 | File Management    | ✅      |
 
 ---
 
