@@ -23,7 +23,7 @@ Currently studying Linux fundamentals through hands-on labs while documenting co
 
 Track my progress through Linux fundamentals. Each completed topic includes documentation and screenshots demonstrating hands-on practice.
 
-### Linux Fundamentals (4/10 Complete)
+### Linux Fundamentals (5/10 Complete)
 
 - [x] Linux Navigation
   - 📄 [Documentation](notes/01-linux-navigation.md)
@@ -41,7 +41,9 @@ Track my progress through Linux fundamentals. Each completed topic includes docu
   - 📄 [Documentation](notes/04-linux-find.md)
   - 🖼️ [Screenshot](screenshots/04-linux-find.png)
 
-- [ ] Users
+- [x] Users
+  - 📄 [Documentation](notes/05-linux-users.md)
+  - 🖼️ [Screenshot](screenshots/05-linux-users.png)
 - [ ] Groups
 - [ ] Permissions
 - [ ] Ownership
@@ -70,6 +72,7 @@ Track my progress through Linux fundamentals. Each completed topic includes docu
 | 2026-07-22 | Linux Wildcards | ✅ |
 | 2026-07-23 | File Searching (find, which, whereis) | ✅ |
 | 2026-07-23 | Git & VS Code Workflow | ✅ |
+| 2026-07-24 | Linux Users | ✅ |
 
 ## Tools
 
