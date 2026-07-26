@@ -14,8 +14,7 @@ Currently studying Linux fundamentals through hands-on labs while documenting co
 - File and directory management
 - File searching
 - Linux permissions and ownership
-- User and group management
-- Linux group administration
+- Linux user and group management
 - Basic system administration
 - Git and GitHub version control
 - Technical documentation using Markdown
@@ -24,7 +23,7 @@ Currently studying Linux fundamentals through hands-on labs while documenting co
 
 Track my progress through Linux fundamentals. Each completed topic includes documentation and screenshots demonstrating hands-on practice.
 
-### Linux Fundamentals (6/10 Complete)
+### Linux Fundamentals (7/10 Complete)
 
 - [x] Linux Navigation
   - 📄 [Documentation](notes/01-linux-navigation.md)
@@ -49,7 +48,11 @@ Track my progress through Linux fundamentals. Each completed topic includes docu
 - [x] Groups
   - 📄 [Documentation](notes/06-linux-groups.md)
   - 🖼️ [Screenshot](screenshots/06-linux-groups.png)
-- [ ] Permissions
+
+- [x] Permissions
+  - 📄 [Documentation](notes/07-linux-permissions.md)
+  - 🖼️ [Screenshot](screenshots/07-linux-permissions.png)
+
 - [ ] Ownership
 - [ ] Processes
 - [ ] Networking
@@ -78,6 +81,7 @@ Track my progress through Linux fundamentals. Each completed topic includes docu
 | 2026-07-23 | Git & VS Code Workflow | ✅ |
 | 2026-07-24 | Linux Users | ✅ |
 | 2026-07-25 | Linux Groups | ✅ |
+| 2026-07-26 | Linux Permissions | ✅ |
 
 ## Tools
 
@@ -88,6 +92,7 @@ Track my progress through Linux fundamentals. Each completed topic includes docu
 - GitHub
 - VS Code
 - TryHackMe
+
 ---
 
 This repository is continuously updated as I complete Linux labs, cybersecurity exercises, and hands-on projects. Each topic includes notes, screenshots, and practical examples to document my learning and demonstrate technical growth.
