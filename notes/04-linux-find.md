@@ -2,47 +2,87 @@
 
 ## What I Learned
 
-### find
+Linux provides several commands for locating files, directories, and executable programs. Each command serves a different purpose depending on what you are searching for.
 
-The `find` command searches recursively through directories for files and directories that match specific search criteria.
+In this lesson, I learned how to search for files and directories using `find`, locate executable programs with `which`, and identify the locations of binaries, source files, and manual pages using `whereis`.
 
-Examples:
+## Commands
+
+### find -name
+
+Searches for files or directories using a case-sensitive name match.
+
+```bash
+find path -name "pattern"
+```
+
+Example:
 
 ```bash
 find . -name "*.txt"
 ```
 
-Searches for `.txt` files using a case-sensitive filename match.
+---
+
+### find -iname
+
+Searches for files or directories using a case-insensitive name match.
+
+```bash
+find path -iname "pattern"
+```
+
+Example:
 
 ```bash
 find . -iname "*.txt"
 ```
 
-Searches for `.txt` files using a case-insensitive filename match.
+---
+
+### find -type f
+
+Searches only for files.
+
+```bash
+find path -type f
+```
+
+Example:
 
 ```bash
 find . -type f
 ```
 
-Lists only files.
+---
+
+### find -type d
+
+Searches only for directories.
+
+```bash
+find path -type d
+```
+
+Example:
 
 ```bash
 find . -type d
 ```
 
-Lists only directories.
-
 ---
 
 ### which
 
-The `which` command displays the location of an executable command in your system's `PATH`.
-
-Examples:
+Displays the location of an executable command in the system's `PATH`. If the command is not found, no output is displayed.
 
 ```bash
-which ls
-which find
+which command
+```
+
+Example:
+
+```bash
 which bash
 ```
 
@@ -50,17 +90,17 @@ which bash
 
 ### whereis
 
-The `whereis` command displays the locations of a command's binary, source files, and manual pages (when available).
+Displays the locations of a command's binary, source files, and manual pages (when available).
 
-Examples:
+```bash
+whereis command
+```
+
+Example:
 
 ```bash
 whereis bash
-whereis find
-whereis git
 ```
-
----
 
 ## Key Takeaways
 
@@ -71,3 +111,7 @@ whereis git
 - `-type d` searches only for directories.
 - `which` locates the executable path of a command.
 - `whereis` displays the locations of a command's binary, source files, and manual pages.
+
+## Summary
+
+This lesson introduced Linux file and command location tools. I learned how to search for files and directories using `find`, locate executable programs with `which`, and identify the locations of binaries, source files, and manual pages using `whereis`.

@@ -1,71 +1,85 @@
 # Linux File Management
 
-## Copy Files (`cp`)
+## What I Learned
 
-**Syntax:**
+Linux provides commands for copying, moving, renaming, and deleting files and directories. These commands are essential for organizing files and managing the filesystem.
+
+In this lesson, I learned how to copy files, move and rename files, remove files, and delete empty directories using common Linux commands.
+
+## Commands
+
+### cp
+
+Copies a file or directory to another location.
 
 ```bash
-cp <source> <destination>
+cp source destination
 ```
 
-**Example:**
+Example:
 
 ```bash
 cp day1.txt day1-copy.txt
 ```
 
-**What it does:**
-Creates a duplicate of a file while leaving the original unchanged.
+---
 
-## Move / Rename Files (`mv`)
+### mv
 
-**Syntax:**
+Moves or renames a file or directory.
 
 ```bash
-mv <source> <destination>
+mv source destination
 ```
 
-**Example:**
+Example:
 
 ```bash
 mv day1-copy.txt notes.txt
 ```
 
-**What it does:**
-Moves a file or directory to a new location, or renames it if the destination is in the same directory.
+---
 
-## Remove Files (`rm`)
+### rm
 
-**Syntax:**
+Permanently deletes a file or, with the appropriate options, a directory.
 
 ```bash
-rm <filename>
+rm filename
 ```
 
-**Example:**
+Example:
 
 ```bash
 rm notes.txt
 ```
 
-**What it does:**
-Permanently deletes a file from the current location.
+---
 
-## Remove Empty Directories (`rmdir`)
+### rmdir
 
-**Syntax:**
+Removes an empty directory.
 
 ```bash
-rmdir <directory>
+rmdir directory
 ```
 
-**Example:**
+Example:
 
 ```bash
 rmdir practice
 ```
 
-**What it does:**
-Permanently deletes an empty directory. If the directory contains files or other directories, the command will fail.
+> **Note:** `rmdir` only works on empty directories. If the directory contains files or other directories, the command will fail.
 
-> **Note:** `rmdir` only works on empty directories.
+## Key Takeaways
+
+- `cp` copies files and directories.
+- `mv` moves or renames files and directories.
+- `rm` permanently deletes files.
+- `rmdir` removes empty directories only.
+- File management commands are essential for organizing the Linux filesystem.
+
+## Summary
+
+This lesson introduced basic Linux file management commands. I learned how to copy, move, rename, and delete files, as well as remove empty directories using common Linux commands.

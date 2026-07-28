@@ -1,6 +1,6 @@
 # linux-security-lab
 
-![Progress](https://img.shields.io/badge/Progress-8%2F10-blue)
+![Progress](https://img.shields.io/badge/Progress-9%2F10-blue)
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange)
 ![Bash](https://img.shields.io/badge/Bash-Shell-black)
 ![Git](https://img.shields.io/badge/Git-Version%20Control-red)
@@ -12,7 +12,7 @@ This repository documents my hands-on Linux practice as I build practical IT and
 
 ## Overview
 
-Linux Security Lab is a hands-on portfolio project focused on developing practical Linux skills for IT support, Linux administration, and cybersecurity. Each lesson combines technical notes, terminal practice, screenshots, and Git version control to document my learning and demonstrate continuous progress.
+This Linux Security Lab is a hands-on portfolio project focused on developing practical Linux skills for IT support, Linux administration, and cybersecurity. Each lesson combines technical notes, terminal practice, screenshots, and Git version control to document my learning and demonstrate continuous progress.
 
 ---
 
@@ -48,12 +48,16 @@ touch
 cp
 mv
 rm
+rmdir
 find
 which
 whereis
 cat
 less
 grep
+echo
+cut
+getent
 chmod
 chown
 chgrp
@@ -62,6 +66,13 @@ useradd
 passwd
 groups
 id
+groupadd
+groupdel
+usermod
+ps
+pgrep
+pidof
+kill
 ```
 
 ---
@@ -115,7 +126,7 @@ linux-security-lab/
 
 Track my progress through Linux fundamentals. Each completed lesson includes documentation and screenshots demonstrating hands-on practice.
 
-### Linux Fundamentals (8/10 Complete • 80%)
+### Linux Fundamentals (9/10 Complete • 90%)
 
 - [x] Linux Navigation
   - 📄 [Documentation](notes/01-linux-navigation.md)
@@ -149,7 +160,9 @@ Track my progress through Linux fundamentals. Each completed lesson includes doc
   - 📄 [Documentation](notes/08-linux-ownership.md)
   - 🖼️ [Screenshot](screenshots/08-linux-ownership.png)
 
-- [ ] Processes *(Coming Soon)*
+- [x] Processes
+  - 📄 [Documentation](notes/09-linux-processes.md)
+  - 🖼️ [Screenshot](screenshots/09-linux-processes.png)
 
 - [ ] Networking *(Coming Soon)*
 
@@ -169,6 +182,7 @@ Track my progress through Linux fundamentals. Each completed lesson includes doc
 | 2026-07-25 | Linux Groups | ✅ |
 | 2026-07-26 | Linux Permissions | ✅ |
 | 2026-07-27 | Linux Ownership | ✅ |
+| 2026-07-28 | Linux Processes | ✅ |
 
 ---
 

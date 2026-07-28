@@ -1,68 +1,99 @@
-# Linux Navigation Commands
+# Linux Navigation
 
-## Overview
+## What I Learned
 
-This document covers the basic Linux navigation commands I learned while setting up my Ubuntu virtual machine.
+Linux navigation commands allow users to move through the filesystem, determine their current location, create files and directories, and explore the contents of directories.
 
----
+In this lesson, I learned how to identify the current working directory, list files and directories, navigate the filesystem, create directories, and create files using common Linux commands.
 
-## pwd
+## Commands
 
-**Purpose:** Displays the current working directory.
+### pwd
 
-**Example:**
+Displays the current working directory.
+
 ```bash
 pwd
 ```
 
----
+Example:
 
-## ls
-
-**Purpose:** Lists the files and directories in the current directory.
-
-**Example:**
-```bash
-ls
+```text
+/home/donald
 ```
 
 ---
 
-## cd
+### ls
 
-**Purpose:** Changes the current directory.
+Lists the files and directories in the current directory.
 
-**Example:**
+```bash
+ls
+```
+
+Example:
+
+```text
+Documents
+Downloads
+notes.txt
+```
+
+---
+
+### cd
+
+Changes the current working directory.
+
+```bash
+cd directory
+```
+
+Example:
+
 ```bash
 cd Documents
 ```
 
 ---
 
-## mkdir
+### mkdir
 
-**Purpose:** Creates a new directory.
+Creates a new directory.
 
-**Example:**
+```bash
+mkdir directory
+```
+
+Example:
+
 ```bash
 mkdir projects
 ```
 
 ---
 
-## touch
+### touch
 
-**Purpose:** Creates a new empty file.
+Creates a new empty file.
 
-**Example:**
+```bash
+touch filename
+```
+
+Example:
+
 ```bash
 touch notes.txt
 ```
 
----
-
-## What I Learned
+## Key Takeaways
 
 - Linux uses commands instead of a graphical interface for many tasks.
 - Every file and folder exists within a directory structure.
-- Navigation commands are the foundation for using the Linux terminal efficiently.
+- Navigation commands are the foundation for working efficiently in the Linux terminal.
+
+## Summary
+
+This lesson introduced basic Linux navigation commands. I learned how to identify my current location, navigate directories, list directory contents, create directories, and create files using common Linux commands.

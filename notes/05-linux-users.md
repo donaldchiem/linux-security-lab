@@ -1,21 +1,22 @@
 # Linux Users
 
 ## What I Learned
-Learn how Linux identifies users, stores user information, and determines the currently logged-in user.
 
----
+Linux uses user accounts to identify who is logged into the system and determine what resources they can access. Each user has a unique User ID (UID), belongs to one or more groups, and has account information stored in system files.
+
+In this lesson, I learned how to identify the current user, view user account information, inspect user and group IDs, locate the home directory, and list user accounts on the system.
 
 ## Commands
 
-### Display the current user
+### whoami
+
+Displays the username of the current logged-in user.
 
 ```bash
 whoami
 ```
 
-Displays the username of the current logged-in user.
-
-Example output:
+Example:
 
 ```text
 donald
@@ -23,18 +24,19 @@ donald
 
 ---
 
-### Display user and group information
+### id
+
+Displays a user's UID, GID, and group memberships.
 
 ```bash
-id
+id username
 ```
 
-Displays:
-- User ID (UID)
-- Primary Group ID (GID)
-- Groups the user belongs to
-
 Example:
+
+```bash
+id donald
+```
 
 ```text
 uid=1000(donald) gid=1000(donald) groups=1000(donald),27(sudo)
@@ -42,15 +44,22 @@ uid=1000(donald) gid=1000(donald) groups=1000(donald),27(sudo)
 
 ---
 
-### View user account information
+### getent passwd
+
+Displays information stored for a user.
+
+```bash
+getent passwd username
+```
+
+Example:
 
 ```bash
 getent passwd donald
 ```
 
-Displays information stored for a user.
-
 Fields include:
+
 - Username
 - UID
 - GID
@@ -60,7 +69,9 @@ Fields include:
 
 ---
 
-### Display the home directory
+### echo $HOME
+
+Displays the current user's home directory.
 
 ```bash
 echo $HOME
@@ -74,7 +85,9 @@ Example:
 
 ---
 
-### Display the current directory
+### pwd
+
+Displays the current working directory.
 
 ```bash
 pwd
@@ -88,15 +101,24 @@ Example:
 
 ---
 
-### List all users
+### cut
+
+Displays every user account on the system, including system accounts.
 
 ```bash
 cut -d: -f1 /etc/passwd
 ```
 
-Displays every user account on the system, including system accounts.
+Example:
 
----
+```text
+root
+daemon
+bin
+sys
+sync
+...
+```
 
 ## Key Takeaways
 
@@ -106,8 +128,6 @@ Displays every user account on the system, including system accounts.
 - Passwords are stored separately in `/etc/shadow`.
 - The root user is the system administrator.
 
----
-
 ## Summary
 
-Today I learned how Linux identifies users, displays user information, lists system accounts, and locates a user's home directory.
+This lesson introduced Linux users and how the operating system identifies user accounts. I learned how to identify the current user, inspect user and group information, view account details, locate the home directory, and list user accounts stored on the system.

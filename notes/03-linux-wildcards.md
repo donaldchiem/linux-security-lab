@@ -1,10 +1,16 @@
 # Linux Wildcards
 
-Wildcards allow you to match multiple files without typing every filename.
+## What I Learned
 
-## Asterisk (*)
+Wildcards are special characters used by the Linux shell to match multiple files and directories without typing every filename. The shell expands wildcard patterns before executing a command.
 
-Matches zero or more characters.
+In this lesson, I learned how to use the `*` and `?` wildcards to search for files based on filename patterns.
+
+## Commands
+
+### *
+
+Matches zero or more characters in a filename or directory name.
 
 Examples:
 
@@ -14,11 +20,11 @@ ls a*
 ls apple.*
 ```
 
-If no files match the pattern, ls reports an error because the shell leaves the pattern unchanged.
+---
 
-## Question Mark (?)
+### ?
 
-Matches exactly one character.
+Matches exactly one character in a filename or directory name.
 
 Examples:
 
@@ -28,9 +34,13 @@ ls ??.txt
 ls a?.txt
 ```
 
+## Key Takeaways
+
+- `*` matches zero or more characters.
+- `?` matches exactly one character.
+- Wildcards are expanded by the shell before a command is executed.
+- Wildcards make it easier to work with multiple files and directories.
+
 ## Summary
 
-- `*` = zero or more characters
-- `?` = exactly one character
-
-The shell expands wildcards before executing the command.
+This lesson introduced Linux wildcards and how they simplify working with files and directories. I learned how to use the `*` and `?` wildcards to match filename patterns and how the shell expands wildcard expressions before executing commands.

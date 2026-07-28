@@ -14,11 +14,13 @@ Displays the groups the current user belongs to.
 groups
 ```
 
-Example
+Example:
 
 ```text
 donald adm cdrom sudo dip plugdev users lpadmin lxd
 ```
+
+---
 
 ### cat /etc/group
 
@@ -27,63 +29,98 @@ Displays every group configured on the system.
 ```bash
 cat /etc/group
 ```
-Example
+
+Example:
 
 ```text
 sudo:x:27:donald
 ```
+
+---
 
 ### grep
 
 Searches for a specific group inside the group database.
 
 ```bash
+grep group_name /etc/group
+```
+
+Example:
+
+```bash
 grep cybersecurity /etc/group
 ```
+
+---
 
 ### groupadd
 
 Creates a new Linux group.
 
 ```bash
+sudo groupadd group_name
+```
+
+Example:
+
+```bash
 sudo groupadd cybersecurity
 ```
+
+---
 
 ### usermod -aG
 
 Adds a user to an existing group.
 
 ```bash
+sudo usermod -aG group_name username
+```
+
+Example:
+
+```bash
 sudo usermod -aG cybersecurity donald
 ```
+
+---
 
 ### id
 
 Displays a user's UID, GID, and group memberships.
 
 ```bash
-id
+id username
 ```
+
+Example:
 
 ```bash
 id donald
 ```
-Example
 
 ```text
 uid=1000(donald) gid=1000(donald) groups=1000(donald),4(adm),...
 ```
+
+---
 
 ### groupdel
 
 Deletes a Linux group.
 
 ```bash
+sudo groupdel group_name
+```
+
+Example:
+
+```bash
 sudo groupdel cybersecurity
 ```
-Example
 
-Deletes the `cybersecurity` group. If successful, no output is displayed.
+If successful, no output is displayed.
 
 ## Key Takeaways
 
