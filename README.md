@@ -1,6 +1,6 @@
 # linux-security-lab
 
-![Progress](https://img.shields.io/badge/Progress-7%2F10-blue)
+![Progress](https://img.shields.io/badge/Progress-8%2F10-blue)
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange)
 ![Bash](https://img.shields.io/badge/Bash-Shell-black)
 ![Git](https://img.shields.io/badge/Git-Version%20Control-red)
@@ -12,13 +12,13 @@ This repository documents my hands-on Linux practice as I build practical IT and
 
 ## Overview
 
-Linux Security Lab is a hands-on portfolio project focused on developing practical Linux skills for IT and cybersecurity. Each topic combines technical notes, terminal practice, screenshots, and Git version control to document my learning and demonstrate continuous progress.
+Linux Security Lab is a hands-on portfolio project focused on developing practical Linux skills for IT support, Linux administration, and cybersecurity. Each lesson combines technical notes, terminal practice, screenshots, and Git version control to document my learning and demonstrate continuous progress.
 
 ---
 
 ## Current Focus
 
-Currently studying Linux fundamentals through hands-on labs while documenting every topic with notes, screenshots, and practical command examples.
+Currently studying Linux fundamentals through hands-on labs while documenting each lesson with technical notes, terminal screenshots, Git version control, and practical command examples.
 
 ---
 
@@ -56,6 +56,7 @@ less
 grep
 chmod
 chown
+chgrp
 sudo
 useradd
 passwd
@@ -112,9 +113,9 @@ linux-security-lab/
 
 ## Learning Roadmap
 
-Track my progress through Linux fundamentals. Each completed topic includes documentation and screenshots demonstrating hands-on practice.
+Track my progress through Linux fundamentals. Each completed lesson includes documentation and screenshots demonstrating hands-on practice.
 
-### Linux Fundamentals (7/10 Complete • 70%)
+### Linux Fundamentals (8/10 Complete • 80%)
 
 - [x] Linux Navigation
   - 📄 [Documentation](notes/01-linux-navigation.md)
@@ -144,7 +145,9 @@ Track my progress through Linux fundamentals. Each completed topic includes docu
   - 📄 [Documentation](notes/07-linux-permissions.md)
   - 🖼️ [Screenshot](screenshots/07-linux-permissions.png)
 
-- [ ] Ownership *(Coming Soon)*
+- [x] Ownership
+  - 📄 [Documentation](notes/08-linux-ownership.md)
+  - 🖼️ [Screenshot](screenshots/08-linux-ownership.png)
 
 - [ ] Processes *(Coming Soon)*
 
@@ -165,9 +168,10 @@ Track my progress through Linux fundamentals. Each completed topic includes docu
 | 2026-07-24 | Linux Users | ✅ |
 | 2026-07-25 | Linux Groups | ✅ |
 | 2026-07-26 | Linux Permissions | ✅ |
+| 2026-07-27 | Linux Ownership | ✅ |
 
 ---
 
 ## Repository Purpose
 
-This repository documents my journey learning Linux through structured, hands-on practice. Each completed topic includes technical notes, screenshots, Git history, and practical examples that demonstrate both my understanding of Linux concepts and my progression toward cybersecurity.
+This repository documents my journey learning Linux through structured, hands-on practice. Each completed lesson includes technical notes, terminal screenshots, Git history, and practical command examples that demonstrate both my understanding of Linux concepts and my progression toward IT support, Linux administration, and cybersecurity.
