@@ -1,10 +1,10 @@
 # linux-security-lab
 
-![Progress](https://img.shields.io/badge/Progress-9%2F10-blue)
+![Progress](https://img.shields.io/badge/Progress-10%2F10-brightgreen)
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange)
 ![Bash](https://img.shields.io/badge/Bash-Shell-black)
 ![Git](https://img.shields.io/badge/Git-Version%20Control-red)
-![Status](https://img.shields.io/badge/Status-Active-success)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 This repository documents my hands-on Linux practice as I build practical IT and cybersecurity skills. It serves as a technical portfolio showcasing my progress in Linux system administration, command-line proficiency, and security fundamentals through structured documentation and real-world exercises.
 
@@ -18,7 +18,7 @@ This Linux Security Lab is a hands-on portfolio project focused on developing pr
 
 ## Current Focus
 
-Currently studying Linux fundamentals through hands-on labs while documenting each lesson with technical notes, terminal screenshots, Git version control, and practical command examples.
+Completed a structured Linux fundamentals lab consisting of 10 hands-on lessons. Each lesson includes technical notes, terminal screenshots, Git version control, and practical command examples that document my progress.
 
 ---
 
@@ -29,6 +29,7 @@ Currently studying Linux fundamentals through hands-on labs while documenting ea
 - File searching
 - Linux permissions and ownership
 - Linux user and group management
+- Linux networking fundamentals
 - Basic system administration
 - Git and GitHub version control
 - Technical documentation using Markdown
@@ -73,6 +74,12 @@ ps
 pgrep
 pidof
 kill
+ip
+ss
+ping
+nslookup
+dig
+hostname
 ```
 
 ---
@@ -126,7 +133,7 @@ linux-security-lab/
 
 Track my progress through Linux fundamentals. Each completed lesson includes documentation and screenshots demonstrating hands-on practice.
 
-### Linux Fundamentals (9/10 Complete • 90%)
+### Linux Fundamentals (10/10 Complete • 100%)
 
 - [x] Linux Navigation
   - 📄 [Documentation](notes/01-linux-navigation.md)
@@ -164,7 +171,9 @@ Track my progress through Linux fundamentals. Each completed lesson includes doc
   - 📄 [Documentation](notes/09-linux-processes.md)
   - 🖼️ [Screenshot](screenshots/09-linux-processes.png)
 
-- [ ] Networking *(Coming Soon)*
+- [x] Networking
+  - 📄 [Documentation](notes/10-linux-networking.md)
+  - 🖼️ [Screenshot](screenshots/10-linux-networking.png)
 
 ---
 
@@ -183,6 +192,7 @@ Track my progress through Linux fundamentals. Each completed lesson includes doc
 | 2026-07-26 | Linux Permissions | ✅ |
 | 2026-07-27 | Linux Ownership | ✅ |
 | 2026-07-28 | Linux Processes | ✅ |
+| 2026-07-29 | Linux Networking | ✅ |
 
 ---
 
